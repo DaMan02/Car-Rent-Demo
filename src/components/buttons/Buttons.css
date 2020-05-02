@@ -1,0 +1,7 @@
+.unavailable {
+    font-size: 10px;
+    color: red;
+    position: relative;
+    bottom: 0;
+    right: 0;
+}

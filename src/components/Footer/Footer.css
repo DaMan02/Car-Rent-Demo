@@ -1,0 +1,34 @@
+.footer {
+    padding-right: 32px;
+    font-weight: 600;
+    color: #646464;
+}
+
+.text-start {
+    text-align: left;
+    margin-left: 10%;
+    font-weight: 460;
+    margin-top: 8%;
+    margin-bottom: 6%;
+} 
+
+.small {
+    font-size: 13px;
+    text-align: left;
+    font-weight: 450;
+    margin-left: 10%;
+}
+
+.footer-right {
+    position: absolute;
+    display: flex;
+    right: 80px;
+    text-align: right;
+    justify-content: right;
+}
+
+.footer-r-tx {
+    font-weight: 100;
+    font-size: 10px;
+    margin-right: 20px;
+}

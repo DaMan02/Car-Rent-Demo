@@ -1,0 +1,37 @@
+ .item-card {
+    border-color: rgba(245, 245, 245, 0.288);
+    border-width: 0.02px;
+    border-style: groove;
+    margin-top: 120px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    height: fit-content;
+   }
+
+   .master {
+    margin-left: 200px;
+    margin-right: 200px;
+    height: fit-content;
+   }
+ 
+  .card-row {
+     display: flex;
+     vertical-align: middle;
+     align-items: center;
+     margin-left: 25px;
+ }
+
+ .title {
+        font-weight: 600;
+        color: rgb(114, 114, 114);
+        margin-top: 60px;
+    }
+
+  .divider {
+    width : auto;
+    height: 2px;
+    background-color: rgb(189, 189, 189);
+ }
+ 
+ 

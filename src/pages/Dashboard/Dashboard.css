@@ -1,0 +1,20 @@
+.text-start {
+    text-align: left;
+    margin-left: 10%;
+    font-weight: 460;
+    margin-top: 8%;
+    margin-bottom: 6%;
+}
+
+.index {
+    display: flex;
+    margin-left: 37%;
+}
+
+.text-middle {
+    color: #898989;
+    font-size: 12px;
+    font-weight: 600;
+    width: fit-content;
+    padding-right: 20%;
+}
