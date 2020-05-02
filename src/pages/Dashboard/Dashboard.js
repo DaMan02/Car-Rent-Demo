@@ -10,6 +10,10 @@ const cars = [
         color: 'White',
         seater: '4',
         price: '350',
+        no: '18 D 4356',
+        type: 'Petrol Car',
+        title: '1.2 Kappa dual VTVT BS6 Petrol Engine',
+        desc: 'Hyundai GRAND i10 comes with complete peace of mind with 3 years / 100,000 Km of warranty and Road side assistance for convenience of car owners. The extremely clear instrument panel displays all the important driving information using LCD and TFT technology',
         url: 'https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-hlt0rgpgj76b3rr2e2746rq336-20190810160949.Medi.jpeg'
     },
     {
@@ -17,6 +21,10 @@ const cars = [
         color: 'Deep Blue',
         seater: '4',
         price: '1350',
+        no: '15 C 3536',
+        type: 'Diesel Car',
+        title: 'Lorem ipsum Diesel Engine',
+        desc: 'Gear up for more fun, more style, and more thrill with the Ford EcoSport. Experience a whole new perspective, the ease of technology, superior comfort, and a greener tomorrow with BS VI compliant engines. And, set out on a journey that leads you to discover more in you.',
         url: 'https://images.financialexpress.com/2017/11/Ford-EcoSport-main-large.jpg?w=420&h=280&imflag=true'
     },
     {
@@ -24,6 +32,10 @@ const cars = [
         color: 'Glossy Black',
         seater: '6',
         price: '850',
+        no: '31 A 5646',
+        type: 'Petrol Car',
+        title: '1.2 Kappa dual VTVT BS6 Petrol Engine',
+        desc: 'Maruti Suzuki XL6 comes with complete peace of mind with 4 years / 100,000 Km of warranty and Road side assistance for convenience of car owners. The extremely clear instrument panel displays all the important driving information using LCD and TFT technology',
         url: 'https://www.motoroids.com/wp-content/uploads/2019/08/Maruti-Suzuki-XL6-accessories-featured.jpg'
     },
     {
@@ -31,9 +43,12 @@ const cars = [
         color: 'Blue',
         seater: '4',
         price: '450',
+        no: '11 N 1316',
+        type: 'Petrol Car',
+        title: '1.2 Kappa dual VTVT BS6 Petrol Engine',
+        desc: 'Honda CR-V comes with complete peace of mind with 3 years / 100,000 Km of warranty and Road side assistance for convenience of car owners. The extremely clear instrument panel displays all the important driving information using LCD and TFT technology',
         url: 'https://cnet1.cbsistatic.com/img/YLlxhEe0zNqb3wi-TTrF6AqKPyM=/2020/02/26/71d3cd1d-e43e-4850-8873-dfc2ec865fc7/2020-honda-cr-v-touring-awd-ogi1.jpg'
     },
-
 ]
 
 

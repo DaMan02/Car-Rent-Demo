@@ -1,0 +1,24 @@
+.heading {
+    text-align: left;
+    font-weight: 460;
+    margin-bottom: 6%;
+    font-weight: 600;
+}
+
+.master {
+    width: 77%;
+}
+
+.body {
+    margin-top: 80px;
+    padding-left: 280px;
+}
+
+.top {
+    margin-top: 80px;
+    padding-left: 280px;
+}
+
+.dialog {
+    margin-left: 10;
+}

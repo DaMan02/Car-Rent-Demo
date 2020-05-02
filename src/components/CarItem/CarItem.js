@@ -6,11 +6,11 @@ import Colors from '../../res/Colors';
 class CarItem extends React.Component {
     render() {
         return (
-            <div className="item-card">
+            <div className="item-card-dash">
                 <img src={this.props.url} width={220} height={100} style={{ objectFit: 'stretch', alignSelf: 'center' }} />
                 <div style={{ marginLeft: 20, width: 240 }}>
                     <p style={{ fontSize: 13, fontWeight: '600', textAlign: 'left' }}>{this.props.name}</p>
-                    <div className="card-row">
+                    <div className="card-row-item">
                         <p style={{ fontSize: 13, color: Colors.lightGray }}>{this.props.color}</p>
                         <p style={{ fontSize: 13, paddingLeft: 60, color: Colors.lightGray }}>{this.props.seater} seater</p>
                     </div>      

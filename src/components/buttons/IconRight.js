@@ -1,27 +1,18 @@
 import React from 'react';
-import Button from '@material-ui/core/Button';
-import { makeStyles } from '@material-ui/core/styles';
-import Icon from '@material-ui/core/Icon';
+import ClearIcon from '@material-ui/icons/Clear'
+import Colors from '../../res/Colors';
 
-// const useStyles = makeStyles((theme) => ({
-//   button: {
-//     margin: theme.spacing(1),
-//   },
-// }));
-
-function IconRight() {
-//   const classes = useStyles();
-
+  function IconRight(props) {
+  
   return (
-    <div>
-      <Button
-        variant="contained"
-        color="primary"
-        // className={classes.button}
-        endIcon={<Icon>send</Icon>}
-      >
-        Send
-      </Button>
+    <div onClick={props.onClick}
+        style={{
+            cursor: props.cursor, display: 'flex', borderRadius: 2, 
+            background: '#939393', height: 30, width: 'fit-content', alignItems: 'center', 
+            justifyContent: 'center', paddingLeft: 10, paddingRight: 10, marginTop: 18, marginBottom: 18
+        }}>
+        <p style={{ fontSize: 12, fontWeight: '400', color: 'white' }}>{props.title}</p>
+        {props.unavailable && <ClearIcon style={{color: 'white'}}/>}
     </div>
   );
 }

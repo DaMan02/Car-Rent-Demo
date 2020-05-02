@@ -1,0 +1,35 @@
+ .master {
+    margin-left: 200px;
+    margin-right: 200px;
+    height: fit-content;
+   }
+ 
+   .txt {
+       font-size: 14px;
+ }
+
+ .book {
+    display: flex;
+    color: rgb(116, 116, 116);
+    justify-content: space-between;
+    /* padding-right: 60px; */
+    font-size: 12px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.book-entry {
+    display: flex;
+    /* color: rgb(116, 116, 116); */
+    justify-content: space-between;
+    /* padding-right: 60px; */
+    font-size: 13px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-weight: 400;
+}
+
+.table-item {
+    width: 14%
+}
